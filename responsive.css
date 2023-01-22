@@ -1,0 +1,695 @@
+
+
+/*		Default Layout: 1080px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+.mainweb{
+	width:1080px;
+	margin:0 auto;
+}
+#selectnav1{
+	display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
+	
+.mainweb{
+	width:100%;
+}
+#nav_logo {
+  width: 10%;
+  height: 70px;
+}
+#nav_logo img {
+  width: 100%;
+  height: 100%;
+}
+#nav_menu {
+  width: 84%;
+}
+#selectnav1{
+	display:block;
+	float: right;
+}
+#nav_menu ul{
+	display:none;
+}
+#fast_content{
+	width:100%;
+	text-align:center;
+}
+#right_image{
+	width:100%;
+	height:auto;
+	margin-top:50px;
+}
+#right_image img{
+	width:100%;
+	height:auto;
+}
+#bottom_image img{
+	width:10%;
+	margin-left: 8%;
+	padding:0;
+	margin-top:20px;
+}
+#colum {
+  width: 27%;
+  border: 1px solid #213b52;
+  padding: 12px;
+}
+#third_left{
+	width: 60%;
+}
+#right_button {
+  width: 32%;
+}
+#forth_section button {
+  margin-left: 0;
+  width: 100%;
+}
+#fiveth_image{
+	width: 30%;
+	margin-left:3%;
+}
+#fiveth_image img{
+	width: 100%;
+}
+#fiveth_right{
+	width: 60%;
+}
+#fiveth_right button{
+	width:100%;
+}
+#sixth_left{
+	width: 60%;
+	margin-left: 4%;
+}
+#sixth_left button{
+	width:100%;
+}
+#sixth_image{
+	width: 30%;
+}
+#sixth_image img {
+  width: 100%;
+}
+#seventh_right{
+	width: 60%;
+}
+#seventh_right button{
+	width: 100%;
+}
+#seventh_image{
+	width: 30%;
+	margin-left:3%;
+}
+#seventh_image img{
+	width:100%;
+}
+#eighth_left{
+	width: 60%;
+	margin-left: 4%;
+}
+#eighth_left button{
+	width:100%;
+}
+#eighth_image{
+	width: 30%;
+}
+#eighth_image img{
+	width: 100%;
+}
+#Section_button button {
+  margin-left: 0;
+  width: 100%;
+}
+#nineth_left {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+#nineth_left img {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-left: 20%;
+  border: 5px solid antiquewhite;
+}
+#nineth_left p{
+	border: 5px solid antiquewhite;
+	padding: 15px;
+}
+#nineth_rightvedio {
+  width: 100%;
+  margin-top: 50px;
+}
+#nineth_rightvedio video {
+  width: 100%;
+  margin-left: 0;
+}
+#tenth_section button{
+	margin-left: 0;
+	width: 100%;
+}
+#footer_section img{
+	display:none;
+}
+#footer_section p{
+	width: 100%;
+	text-align: center;
+}
+#soceal_icon{
+	display:none;
+}
+
+
+
+
+
+
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	
+
+
+
+
+.mainweb{
+	width:100%;
+}
+#nav_logo {
+  width: 10%;
+  height: 70px;
+}
+#nav_logo img {
+  width: 100%;
+  height: 100%;
+}
+#nav_menu {
+  width: 84%;
+}
+#fast_content{
+	width:100%;
+	text-align:center;
+}
+#right_image{
+	width:100%;
+	height:auto;
+	margin-top:50px;
+}
+#right_image img{
+	width:100%;
+	height:auto;
+}
+#bottom_image img{
+	width:10%;
+	margin-left: 8%;
+	padding:0;
+	margin-top:20px;
+}
+#colum {
+  width: 90%;
+  border: 1px solid #213b52;
+  padding: 12px;
+}
+#third_left{
+	width: 60%;
+}
+#right_button {
+  width: 32%;
+}
+#forth_section button {
+  margin-left: 0;
+  width: 100%;
+}
+#fiveth_image{
+	width: 90%;
+	margin-left:3%;
+}
+#fiveth_image img{
+	width: 100%;
+}
+#fiveth_right{
+	width: 90%;
+}
+#fiveth_right button{
+	width:100%;
+}
+#sixth_left{
+	width: 90%;
+	margin-left: 4%;
+}
+#sixth_left button{
+	width:100%;
+}
+#sixth_image{
+	width: 90%;
+}
+#sixth_image img {
+  width: 100%;
+}
+#seventh_right{
+	width: 90%;
+}
+#seventh_right button{
+	width: 100%;
+}
+#seventh_image{
+	width: 90%;
+	margin-left:3%;
+}
+#seventh_image img{
+	width:100%;
+}
+#eighth_left{
+	width: 90%;
+	margin-left: 4%;
+}
+#eighth_left button{
+	width:100%;
+}
+#eighth_image{
+	width: 90%;
+}
+#eighth_image img{
+	width: 100%;
+}
+#Section_button button {
+  margin-left: 0;
+  width: 100%;
+}
+#nineth_left {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+#nineth_left img {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-left: 20%;
+  border: 5px solid antiquewhite;
+}
+#nineth_left p{
+	border: 5px solid antiquewhite;
+	padding: 15px;
+}
+#nineth_rightvedio {
+  width: 100%;
+  margin-top: 50px;
+}
+#nineth_rightvedio video {
+  width: 100%;
+  margin-left: 0;
+}
+#tenth_section button{
+	margin-left: 0;
+	width: 100%;
+}
+#footer_section img{
+	display:none;
+}
+#footer_section p{
+	width: 100%;
+	text-align: center;
+}
+#soceal_icon{
+	display:none;
+}
+
+
+
+
+
+
+
+
+
+	
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+
+
+
+.mainweb{
+	width:100%;
+}
+#nav_logo {
+  width: 10%;
+  height: 70px;
+}
+#nav_logo img {
+  width: 100%;
+  height: 100%;
+}
+#nav_menu {
+  width: 84%;
+}
+#fast_content{
+	width:100%;
+	text-align:center;
+}
+#right_image{
+	width:100%;
+	height:auto;
+	margin-top:50px;
+}
+#right_image img{
+	width:100%;
+	height:auto;
+}
+#bottom_image img{
+	width:10%;
+	margin-left: 8%;
+	padding:0;
+	margin-top:20px;
+}
+#colum {
+  width: 90%;
+  border: 1px solid #213b52;
+  padding: 12px;
+}
+#third_left{
+	width: 60%;
+}
+#right_button {
+  width: 32%;
+}
+#forth_section button {
+  margin-left: 0;
+  width: 100%;
+}
+#fiveth_image{
+	width: 90%;
+	margin-left:3%;
+}
+#fiveth_image img{
+	width: 100%;
+}
+#fiveth_right{
+	width: 90%;
+}
+#fiveth_right button{
+	width:100%;
+}
+#sixth_left{
+	width: 90%;
+	margin-left: 4%;
+}
+#sixth_left button{
+	width:100%;
+}
+#sixth_image{
+	width: 90%;
+}
+#sixth_image img {
+  width: 100%;
+}
+#seventh_right{
+	width: 90%;
+}
+#seventh_right button{
+	width: 100%;
+}
+#seventh_image{
+	width: 90%;
+	margin-left:3%;
+}
+#seventh_image img{
+	width:100%;
+}
+#eighth_left{
+	width: 90%;
+	margin-left: 4%;
+}
+#eighth_left button{
+	width:100%;
+}
+#eighth_image{
+	width: 90%;
+}
+#eighth_image img{
+	width: 100%;
+}
+#Section_button button {
+  margin-left: 0;
+  width: 100%;
+}
+#nineth_left {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+#nineth_left img {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-left: 20%;
+  border: 5px solid antiquewhite;
+}
+#nineth_left p{
+	border: 5px solid antiquewhite;
+	padding: 15px;
+}
+#nineth_rightvedio {
+  width: 100%;
+  margin-top: 50px;
+}
+#nineth_rightvedio video {
+  width: 100%;
+  margin-left: 0;
+}
+#tenth_section button{
+	margin-left: 0;
+	width: 100%;
+}
+#footer_section img{
+	display:none;
+}
+#footer_section p{
+	width: 100%;
+	text-align: center;
+}
+#soceal_icon{
+	display:none;
+}
+
+
+
+
+
+
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+
+
+
+.mainweb{
+	width:100%;
+}
+#nav_logo {
+  width: 10%;
+  height: 70px;
+}
+#nav_logo img {
+  width: 100%;
+  height: 100%;
+}
+#nav_menu {
+  width: 84%;
+}
+#fast_content{
+	width:100%;
+	text-align:center;
+}
+#right_image{
+	width:100%;
+	height:auto;
+	margin-top:50px;
+}
+#right_image img{
+	width:100%;
+	height:auto;
+}
+#bottom_image img{
+	width:10%;
+	margin-left: 8%;
+	padding:0;
+	margin-top:20px;
+}
+#colum {
+  width: 90%;
+  border: 1px solid #213b52;
+  padding: 12px;
+}
+#third_left{
+	width: 60%;
+}
+#right_button {
+  width: 32%;
+}
+#forth_section button {
+  margin-left: 0;
+  width: 100%;
+}
+#fiveth_image{
+	width: 90%;
+	margin-left:3%;
+}
+#fiveth_image img{
+	width: 100%;
+}
+#fiveth_right{
+	width: 90%;
+}
+#fiveth_right button{
+	width:100%;
+}
+#sixth_left{
+	width: 90%;
+	margin-left: 4%;
+}
+#sixth_left button{
+	width:100%;
+}
+#sixth_image{
+	width: 90%;
+}
+#sixth_image img {
+  width: 100%;
+}
+#seventh_right{
+	width: 90%;
+}
+#seventh_right button{
+	width: 100%;
+}
+#seventh_image{
+	width: 90%;
+	margin-left:3%;
+}
+#seventh_image img{
+	width:100%;
+}
+#eighth_left{
+	width: 90%;
+	margin-left: 4%;
+}
+#eighth_left button{
+	width:100%;
+}
+#eighth_image{
+	width: 90%;
+}
+#eighth_image img{
+	width: 100%;
+}
+#Section_button button {
+  margin-left: 0;
+  width: 100%;
+}
+#nineth_left {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+#nineth_left img {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-left: 20%;
+  border: 5px solid antiquewhite;
+}
+#nineth_left p{
+	border: 5px solid antiquewhite;
+	padding: 15px;
+}
+#nineth_rightvedio {
+  width: 100%;
+  margin-top: 50px;
+}
+#nineth_rightvedio video {
+  width: 100%;
+  margin-left: 0;
+}
+#tenth_section button{
+	margin-left: 0;
+	width: 100%;
+}
+#footer_section img{
+	display:none;
+}
+#footer_section p{
+	width: 100%;
+	text-align: center;
+}
+#soceal_icon{
+	display:none;
+}
+
+
+
+
+
+
+	
+}
